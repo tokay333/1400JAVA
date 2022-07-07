@@ -114,6 +114,9 @@ public class C02BasicOutputMethod {
         System.out.printf("%2s\n","***");
         System.out.printf("%3s\n","*");
         
+        System.out.print("Github TEST");
+        
+        
         
 	}
 
