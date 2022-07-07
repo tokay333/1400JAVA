@@ -83,20 +83,20 @@ public class C02BasicOutputMethod {
 //        3		서길동	40		울산
 //        4		동길동	50		김해
         
-        System.out.println("No		이름		나이		주소");
-        System.out.printf("%d		%s		%d		%s\n", 1,"홍길동",20,"대구");
-        System.out.printf("%d		%s		%d		%s\n", 2,"남길동",30,"서울");
-        System.out.printf("%d		%s		%d		%s\n", 3,"서길동",40,"울산");
-        System.out.printf("%d		%s		%d		%s\n", 4,"동길동",50,"김해");
+        System.out.printf("%-10s%-10s%-10s%s\n","No","이름","나이","주소");
+        System.out.printf("%-10d%-10s%-10d%s\n", 1,"홍길동",20,"대구");
+        System.out.printf("%-10d%-10s%-10d%s\n", 2,"남길동",30,"서울");
+        System.out.printf("%-10d%-10s%-10d%s\n", 3,"서길동",40,"울산");
+        System.out.printf("%-10d%-10s%-10d%s\n", 4,"동길동",50,"김해");
 
         //문제
 //        Code		Title		Publisher		Price
 //        1010		DoItJava	00미디어			29000
 //        2020		윤성우C		오렌지미디어		25000
         
-        System.out.println("Code		Title		Publisher		Price");
-        System.out.printf("%d		%s		00미디어		%d\n", 1010, "DoItJava",29000);
-        System.out.printf("%d		%s		오렌지미디어		%d\n", 2020, "윤성우C",25000);
+        System.out.printf("%-15s%-15s%-15s%s\n","Code","Title","Publisher","Price");
+        System.out.printf("%-15d%-15s%-15s%d\n", 1010, "DoItJava","oo미디어",29000);
+        System.out.printf("%-15d%-15s%-15s%d\n", 2020, "윤성우C","오렌지미디어",25000);
         
         //문제
 //           *
@@ -106,13 +106,13 @@ public class C02BasicOutputMethod {
 //         *****
 //          ***
 //           *
-        System.out.printf("%3s\n","*");
-        System.out.printf("%2s\n","***");
-        System.out.printf("%1s\n","*****");
+        System.out.printf("%4s\n","*");
+        System.out.printf("%5s\n","***");
+        System.out.printf("%6s\n","*****");
         System.out.println("*******");
-        System.out.printf("%1s\n","*****");
-        System.out.printf("%2s\n","***");
-        System.out.printf("%3s\n","*");
+        System.out.printf("%6s\n","*****");
+        System.out.printf("%5s\n","***");
+        System.out.printf("%4s\n","*");
         
         System.out.print("Github TEST");
         
