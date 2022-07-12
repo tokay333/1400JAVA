@@ -74,8 +74,8 @@ public class C09자료형정리 {
 		//------------------------------
 		//5 boolean형(true/false저장)
 		//------------------------------
-		boolean flag1 = true;
-		boolean flag2 = false;
+		//boolean flag1 = true;
+		//boolean flag2 = false;
 		
 		
 		
