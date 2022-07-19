@@ -66,6 +66,7 @@ public class C01For {
 		
 		sc.close();
 */
+		/*
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int m = sc.nextInt();
@@ -79,7 +80,8 @@ public class C01For {
 			}
 		}
 		System.out.printf("%d부터 %d까지 수중의 3의 배수를 제외한 합 = %d\n", n,m,sum);
-
+		*/
+		
 		
 		
 		
