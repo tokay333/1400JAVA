@@ -50,7 +50,7 @@ public class C03BreakContinue {
 		//문제
 		//1부터 N(입력받은값)까지의 수중에 
 		//4의 배수는 제외한 수의 합과 평균을 출력 
-		
+/*		
 		Scanner sc  = new Scanner(System.in);
 		int n=sc.nextInt();
 		int sum=0;	//누적합
@@ -69,7 +69,7 @@ public class C03BreakContinue {
 		}
 		System.out.println("합 : " + sum);
 		System.out.println("평균 : " + ((double)sum/cnt));
-		
+*/		
 
 	}
 
